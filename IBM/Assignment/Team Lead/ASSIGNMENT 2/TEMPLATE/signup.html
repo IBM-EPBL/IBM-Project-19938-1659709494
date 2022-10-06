@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+    <script src="{{url_for('static',filename='js/jquery.min.js')}}"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-success shadow">
+        <a class="navbar-brand text-white" href="/">skills and job recommendation</a>
+    </nav>
+    <div class="container" style="margin-top:100px">
+        <div class="col-md-offset-5 col-md-4">
+            <form action="/signup" method="post" autocomplete="off">
+
+                <h3 class="page-header text-primary">SIGN UP</h3>
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" name="name" placeholder="Enter your Name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Enter your Email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Contact</label>
+                    <input type="text" name="contact" placeholder="Enter your contact" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="password" placeholder="Create a password" class="form-control"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label>Confirm-Password</label>
+                    <input type="password" name="password1" placeholder="Rewrite a password" class="form-control"
+                        required>
+
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Signup" class="btn btn-success">
+                    <input type="reset" value="Clear" class="btn btn-danger">
+                </div>
+            </form>
+            <p class="bottom text-center mt-3">Already exist of an account? <a class="bottom"
+                    href="{{url_for('signin')}}">Login here</a>
+        </div>
+
+    </div>
+</body>
+
+</html>
