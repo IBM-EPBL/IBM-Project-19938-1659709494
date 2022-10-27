@@ -1,6 +1,4 @@
-<img align="right" alt="Coding" width="400" 
-src="https://camo.githubusercontent.com/<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/cegAA2LlR200FMQbgG" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/flow-productions-work-office-chair-cegAA2LlR200FMQbgG">via GIPHY</a></p>">
-
+<img src="https://img.freepik.com/free-vector/partnership-concept-illustration_114360-5954.jpg" alt="error" width="400" height="400">
 # IBM-Project-3989-1658678612
 
 |      **Project Name**     | Skill And Job Recommender |
