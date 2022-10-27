@@ -1,4 +1,4 @@
-<img src="https://img.freepik.com/free-vector/man-search-hiring-job-online-from-laptop_1150-52728.jpg?w=1060&t=st=1666885177~exp=1666885777~hmac=9b52be9c5918ff9a805c3dabda66cc3cdb8839b887a17255b345ac67b1dc4726" alt="job recommender" width="500" height="600" style="float:right">
+<img src="https://img.freepik.com/free-vector/man-search-hiring-job-online-from-laptop_1150-52728.jpg?w=1060&t=st=1666885177~exp=1666885777~hmac=9b52be9c5918ff9a805c3dabda66cc3cdb8839b887a17255b345ac67b1dc4726" alt="job recommender" width="500" height="400" style="float:right">
 
 # IBM-Project-3989-1658678612
 
