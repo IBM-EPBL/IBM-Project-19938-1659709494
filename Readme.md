@@ -1,4 +1,4 @@
-<img src="https://img.freepik.com/free-vector/partnership-concept-illustration_114360-5954.jpg" alt="error" width="400" height="400">
+<img src="https://img.freepik.com/free-vector/recruit-agent-analyzing-candidates_74855-4565.jpg?w=1060&t=st=1666885075~exp=1666885675~hmac=fcfd45994829592328a22873b0c338a098615491deddc4a27d386df2c2789356" alt="error" width="400" height="400">
 # IBM-Project-3989-1658678612
 
 |      **Project Name**     | Skill And Job Recommender |
