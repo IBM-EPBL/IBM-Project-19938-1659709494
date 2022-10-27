@@ -1,4 +1,4 @@
-<img src="https://img.freepik.com/free-vector/man-search-hiring-job-online-from-laptop_1150-52728.jpg?w=1060&t=st=1666885177~exp=1666885777~hmac=9b52be9c5918ff9a805c3dabda66cc3cdb8839b887a17255b345ac67b1dc4726" alt="job recommender" width="500" height="300" style="float:right">
+<img src="<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/cegAA2LlR200FMQbgG" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/flow-productions-work-office-chair-cegAA2LlR200FMQbgG">via GIPHY</a></p>.gif" alt="job recommender" width="500" height="300" style="float:right">
 
 # IBM-Project-3989-1658678612
 
