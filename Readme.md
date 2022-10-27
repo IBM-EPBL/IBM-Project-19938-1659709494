@@ -1,5 +1,5 @@
-<img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);" src="![image](https://user-images.githubusercontent.com/80460869/198337343-846b1250-fd1f-4116-b61f-f76eaf5a4ae3.png)
-">
+<img src="https://img.freepik.com/free-vector/man-search-hiring-job-online-from-laptop_1150-52728.jpg?w=1060&t=st=1666885177~exp=1666885777~hmac=9b52be9c5918ff9a805c3dabda66cc3cdb8839b887a17255b345ac67b1dc4726" alt="job recommender" width="500" height="600" style="float:right">
+
 # IBM-Project-3989-1658678612
 
 |      **Project Name**     | Skill And Job Recommender |
