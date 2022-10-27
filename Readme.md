@@ -13,7 +13,7 @@
 | Team Leader   | **vishnu priyan M**     |
 | Team Member 1 | **Thamarai kannan T**   |
 | Team Member 2 | **vijaykumar A**|
-| Team Member 3 | **vinodhayan **|
+| Team Member 3 | **vinodhayan S**|
 
 
 ## Required Skills :
