@@ -1,4 +1,4 @@
-<img src="https://img.freepik.com/free-vector/man-search-hiring-job-online-from-laptop_1150-52728.jpg?w=1060&t=st=1666885177~exp=1666885777~hmac=9b52be9c5918ff9a805c3dabda66cc3cdb8839b887a17255b345ac67b1dc4726" alt="error" width="500 height="500">
+<img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);" src="https://camo.githubusercontent.com/5ddf73ad3a205111cf8c686f687fc216c2946a75005718c8da5b837ad9de78c9/68747470733a2f2f7468756d62732e6766796361742e636f6d2f4576696c4e657874446576696c666973682d736d616c6c2e676966">
 # IBM-Project-3989-1658678612
 
 |      **Project Name**     | Skill And Job Recommender |
