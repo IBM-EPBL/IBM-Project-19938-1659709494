@@ -1,4 +1,4 @@
-<img src="https://media2.giphy.com/media/cegAA2LlR200FMQbgG/giphy.gif?cid=ecf05e47ggqowlfj8d2xeifuu1whadb0gcehg38e46c9shhh&rid=giphy.gif&ct=g" alt="job recommender" width="500" height="400" style="float:right">
+<img src="https://media1.giphy.com/media/WTjXuYA2y4o3UZly3W/giphy.gif?cid=ecf05e47byol0o1136spnc85n2kvu59quds73gx7e4nhlal9&rid=giphy.gif&ct=g" alt="job recommender" width="400" height="300" style="float:right">
 
 # IBM-Project-3989-1658678612
 
