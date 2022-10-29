@@ -10,10 +10,10 @@
 # Team Members :
 |   **Title**   |      **Name**     |
 |:-----------:|:-----------------:|
-| Team Leader   | **vishnu priyan M**     |
+| Team Leader   | **Vishnu Priyan M**     |
 | Team Member 1 | **Thamarai kannan T**   |
-| Team Member 2 | **vijaykumar A**|
-| Team Member 3 | **vinodhayan S**|
+| Team Member 2 | **Vijaykumar A**|
+| Team Member 3 | **Vinodhayan S**|
 
 
 ## Required Skills :
