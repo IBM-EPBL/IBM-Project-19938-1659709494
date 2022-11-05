@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+<title>Hire-up</title>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+    <h1>Applications</h1>
+    
+    <div class="jobcard card mt-3 " style="width:100%">
+        <div class="card-body d-flex " style="align-items:center ;">
+            <div style="width:5%">
+            <img src="..." class="card-body f-1" alt="...">
+        </div>
+            <h6 class="f-5">Name</h6>
+            
+        </div> 
+        <div class="card-body">
+            <h6>About </h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h6>Projects</h6>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto modi sapiente vel laudantium provident nisi? Similique doloribus minus eligendi, suscipit quo aspernatur voluptates. Ratione quidem suscipit beatae accusamus officia.</p>
+            <h6>Skillset</h6>
+            <h6>
+                <ul>
+                    <li>
+                        html
+                    </li>
+                    <li>
+                        css
+                    </li>
+                    <li>javascript</li>
+                </ul>
+            </h6>
+            <h6>Course Work</h6>
+            <ul>
+                <li>google Certified devloper </li>
+            </ul>
+        
+            <h6>Education</h6>
+            <ul><li>
+                info insitute of eng
+            </li></ul>
+
+
+            <form action="/hr/application/{{id}}">
+
+                <label for="" style="font-weight: bold;">Type Your Message to be mailed </label>
+                
+                <p style="color: grey;">You can Write a message that showcase the details for rejection or You can Write the message that needs to be sent through mail.NOTE: If you reject the application the message will be sent to the applicant so that he can improve in the upcomming application</p>
+                
+                <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Write Your Message..... " ></textarea>
+                <br> 
+                <button type="submit " class="btn btn-success">Accept</button>
+                 <button type="submit " class="btn btn-danger">Reject </button>
+            </form>
+        </div>
+        
+        <div class="card-body d-flex" style="justify-content:space-between ;">
+          
+        
+          
+        </div>
+      </div>
+
+
+</div>
+
+
+
+
+{% endblock %}
