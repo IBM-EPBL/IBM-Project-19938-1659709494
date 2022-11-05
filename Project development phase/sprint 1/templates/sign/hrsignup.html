@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+<title>Sign-Up</title>
+
+{% endblock %}
+
+{% block content %}
+<div class="container form-control">
+
+    <h1 class="text-center">Signup</h1>
+    
+    <form action="/hr/signup" method="post">
+        
+        <label for="">Name</label>
+        <input type="text" class="form-control" placeholder="Enter Your Name" required name="name">
+        <br>
+<label for="">Email</label>
+<input type="email"  class="form-control" placeholder="Enter Your Email" required name="email">
+<br>
+<label for="">Phone</label>
+<input type="number" class="form-control" placeholder="Enter Your Phone Number" required name="phone">
+<br>
+<label for="">Password</label>
+<input type="password" class="form-control" placeholder="Enter Your password" required name="password">
+<br>
+<label for="">Confirm Password</label>
+<input type="password" class="form-control"  placeholder="Confirm Password" required name="re-password">
+<br>
+<label for="">Verify</label>
+<input type="checkbox">
+<br>
+<br>
+<button class="btn btn-danger" type="submit">Sign-Up</button>
+<br>
+<br>
+
+</form>
+<p>Already have an account <a href="/hr/signin">Click Here</a></p>
+
+
+</div>
+
+
+{% endblock %}
