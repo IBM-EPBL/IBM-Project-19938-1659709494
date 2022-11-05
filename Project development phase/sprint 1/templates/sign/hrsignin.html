@@ -1,0 +1,44 @@
+{% extends 'base.html' %} {% block title %}
+
+<title>Sign-In</title>
+
+{% endblock %} {% block content %}
+<div class="container form-control">
+  <h1 class="text-center"></h1>
+
+  <form action="/hr/signin" method="post">
+    <label for="">Email</label>
+    <br />
+
+    <input
+      type="email"
+      class="form-control"
+      name="email"
+      placeholder="Enter your Email.."
+      required
+    />
+    <br />
+    <label for="">Password</label>
+    <br />
+    <input
+      type="password"
+      name="password"
+      class="form-control"
+      placeholder="Enter your Password"
+      required
+    />
+    <br />
+
+    <input type="checkbox" name="" id="" required />
+    <label for="">Check the box</label>
+    <br />
+    <br />
+    <button type="submit" class="btn btn-success">Sign-In</button>
+  </form>
+  <br />
+  <p class="text-center">
+    Create an account <a href="/hr/signup">Click here</a>
+  </p>
+    
+</div>
+{% endblock %}
