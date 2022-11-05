@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+<title>அறம் வேலை வாய்ப்பு</title>
+
+{% endblock %}
+
+{% block content %}
+<div class="container">
+<h1>Edit My Profile</h1>
+
+<form class="form-control" action="/hr/profile/edit/{{data[11]}}" method="post">
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Profile Picture</label>
+        <input type="file" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Name</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="name" value="{{data[0]}}">
+      </div>
+
+     
+
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">About Me</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="about_me" value="{{data[2]}}">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Designation</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="designation" value="{{data[3]}}">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Experience</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="experience"  value="{{data[4]}}">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Linked-IN Url</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="url" value="{{data[5]}}">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Company Name</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="company_name" value="{{data[6]}}">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Company Description</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="company_description" value="{{data[7]}}">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Location</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="location " value="{{data[8]}}">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Website</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="website" value=" {{data[9]}}">
+      </div>
+<button type="submit" class="btn btn-success">Save</button>
+
+</form>
+
+</div>
+
+{% endblock %}
