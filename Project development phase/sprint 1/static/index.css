@@ -1,0 +1,37 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.profile-head{
+    display: flex;
+    justify-content: space-between;
+}
+.profile div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.profile-image img {
+    margin: 30px 0;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.profile h6{
+    text-align: center;
+}
+.profile p{
+    padding: 0 100px;
+    text-align: center;
+}
+.profile a{
+    text-align: center;
+}
+
+.skillset li {
+    margin-left: 30px;
+    text-decoration: none;
+    list-style: disc;
+
+}
