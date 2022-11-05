@@ -1,0 +1,61 @@
+{% extends 'base.html' %} {% block title %}
+
+<title>Hire-Up</title>
+
+{% endblock %} {% block content %}
+
+<div class="container">
+  <div class="d-flex" style="justify-content: space-between">
+    <h1>Your Openings</h1>
+    <div>
+      <a
+        href="/hr/openings/new"
+        class="btn btn-danger d-flex"
+        style="justify-content: center; align-items: center"
+      >
+        <i class="fa-solid fa-circle-plus m-2"></i>
+        <h5 class="text-center" style="color: white; margin-top: 5px">New</h5>
+      </a>
+    </div>
+  </div>
+  <div class="">
+    {% for details in data %}
+    <div class="card mt-3" style="width: 100%">
+      <div class="card-body">
+        <h5 class="card-title">{{details[1]}}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{details[2]}}</h6>
+        <div class="d-flex">
+          <div class="m-2">
+            <i class="fa-solid fa-suitcase"></i> (0-4) years,
+          </div>
+          <div class="m-2">
+            <i class="fa-solid fa-indian-rupee-sign"></i> {{details[4]}},
+          </div>
+          <div class="m-2">
+            <i class="fa-sharp fa-solid fa-building"></i> {{details[8]}}
+          </div>
+        </div>
+        <h5>Skillset</h5>
+        <h1></h1>
+        
+        <div>
+          <ul class="d-flex skillset">
+            <h6>{{details[5]}}</h6>
+          </ul>
+        </div>
+        <h5>Description</h5>
+        <div>
+            <ul class="d-flex skillset">
+              <p>{{details[7]}}</p>
+            </ul>
+          </div>
+        <a href="/hr/openings/edit/{{details[0]}}" class="card-link">Edit</a>
+        <a href="/hr/opening/{{details[0]}}" class="card-link">Delete</a>
+      </div>
+    </div>
+    {% endfor %}
+    
+  </div>
+</div>
+
+{% endblock %}
