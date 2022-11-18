@@ -1,5 +1,5 @@
 <img align="right" alt="Coding" width="400"
-<img src="https://media1.giphy.com/media/WTjXuYA2y4o3UZly3W/giphy.gif?cid=ecf05e47byol0o1136spnc85n2kvu59quds73gx7e4nhlal9&rid=giphy.gif&ct=g" alt="job recommender" width="400" height="300" style="float:right">
+<img src="https://media1.giphy.com/media/WTjXuYA2y4o3UZly3W/giphy.gif?cid=ecf05e47byol0o1136spnc85n2kvu59quds73gx7e4nhlal9&rid=giphy.gif&ct=g" alt="job recommender" >
 
 # IBM-Project
 
