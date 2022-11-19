@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+<title>Hire-Up</title>
+
+{% endblock %}
+
+{% block content %}
+<div class="container">
+
+<h1>Create New </h1>
+
+<form action="/hr/openings/new" method="POST" class="form-control">
+
+    <label for="exampleInputEmail1" class="form-label">Title</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="title">
+    <div id="emailHelp" class="form-text">i.e Python developer,nodejs developer</div>   
+  
+
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Company Name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="company_name">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Designation</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="designation">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Salary Range</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="salary_range">
+    <div id="emailHelp" class="form-text">i.e 5-7 lpa,12-15 lpa</div> 
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Skills required</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="skills_required">
+    <div id="emailHelp" class="form-text">i.e Python,Nodejs</div> 
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Roles and Responsibilities</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="roles_responsibilities">
+    <div id="emailHelp" class="form-text">Write each Responsibilities with comma separated</div> 
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Company Description</label>
+    <textarea type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="company_description"></textarea>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Location</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="location">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Website</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="website">
+  </div>
+
+<button class="btn btn-success" type="submit" >Add</button>
+</form>
+</div>
+
+
+
+
+</div>
+
+{% endblock %}
